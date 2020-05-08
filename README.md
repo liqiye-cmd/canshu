@@ -6,7 +6,7 @@
 速度更快，能够以静默模式输出，子域名工具 | 测活工具 |  canshu | xss 扫描工具，以这样的方式联合其他工具。
 
 使用方法：
-go get https://github.com/liqiye-cmd/canshu.git
+go get github.com/liqiye-cmd/canshu
 
 cat url文件 | canshu 或者 echo "url" | canshu 或者 canshu -u url
 如果想要输出详细信息， 用 -v 参数
