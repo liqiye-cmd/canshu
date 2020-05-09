@@ -24,12 +24,7 @@ func init() {
 }
 
 func main() {
-	var urls []string
-
-	var concurrency int
-	flag.IntVar(&concurrency, "t", 20, "设置线程")
-	
-	
+	var urls []string	
 	
 	flag.BoolVar(&details, "v", false, "输出详情")
 
